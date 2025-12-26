@@ -20,9 +20,6 @@ git in action:
 
 
 
-
-
-
 Stage 1: Added folders 
     1. Backend : using .Net API 
     2. Docs : to give a brief  on the projects
@@ -30,6 +27,8 @@ Stage 1: Added folders
     4. RabbitMQ Broker: Using .Net for integrating MessageMQ as a worker service 
 
 Stage 2: Backend API Creation
+
+
 
 
 
