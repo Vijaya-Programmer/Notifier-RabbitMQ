@@ -39,6 +39,13 @@ Stage 2: Backend API Creation
 3. add RabbitMQ package : dotnet add package RabbitMQ.Client
 4. add folders Controllers, models, services,congifuration
 
+Stage 3: RabbitMQBroker.Consumer.worker 
+
+1. dotnet new worker -n  RabbitMQBroker.Consumer.worker
+2. cd RabbitMQBroker.Consumer.worker
+3. dotnet add package RabbitMQ.Client
+
+
 
 
 
