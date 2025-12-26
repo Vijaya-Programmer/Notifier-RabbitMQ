@@ -28,10 +28,10 @@ Stage 1: Added folders
 
 Stage 2: Backend API Creation
 
-dotnet new webapi -n RabbitMQ.Publisher.Api
-cd RabbitMQ.Publisher.Api
-dotnet add package RabbitMQ.Client
-add folders Controllers, models, services,congifuration
+1. dotnet new webapi -n RabbitMQ.Publisher.Api
+2. cd RabbitMQ.Publisher.Api
+3. add RabbitMQ package : dotnet add package RabbitMQ.Client
+4. add folders Controllers, models, services,congifuration
 
 
 
