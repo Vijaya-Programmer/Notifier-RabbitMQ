@@ -26,6 +26,12 @@ Stage 1: Added folders
     3. Frontend : Angular clients , angular admin 
     4. RabbitMQ Broker: Using .Net for integrating MessageMQ as a worker service 
 
+Stage 2: add gitignore 
+    1. dotnet new gitignore and append for angular :
+
+    # Angular : node_modules/ dist/ .angular/
+
+
 Stage 2: Backend API Creation
 
 1. dotnet new webapi -n RabbitMQ.Publisher.Api
