@@ -44,6 +44,42 @@ Stage 3: RabbitMQBroker.Consumer.worker
 1. dotnet new worker -n  RabbitMQBroker.Consumer.worker
 2. cd RabbitMQBroker.Consumer.worker
 3. dotnet add package RabbitMQ.Client
+4. mkdir consumers Configurations 
+
+Stage 4: front end ( 2 projects )
+
+1. ng new rabbitmq-admin-ui --routing --style=css
+2. ng new rabbitmq-client-ui --routing --style=css
+
+# RabbitMQ Messaging Demo (.NET 8 + Angular)
+
+This repository demonstrates asynchronous messaging using RabbitMQ with:
+- .NET 8 Web API (Publisher)
+- .NET 8 Worker Service (Consumer)
+- Angular Admin UI
+- Angular Client UI
+
+## Repository Structure
+- backend/  → Message publisher API
+- worker/   → Message consumer
+- frontend/ → Angular applications
+- docs/     → Architecture & setup docs
+
+## Messaging Patterns
+- Fanout Exchange
+- Topic Exchange
+
+## Prerequisites
+- .NET 8 SDK
+- Node.js 18+
+- RabbitMQ running locally
+
+## How to Run (No Docker)
+1. Start RabbitMQ
+2. Run `RabbitMQ.Publisher.Api`
+3. Run `RabbitMQ.Consumer.Worker`
+4. Run Angular Admin UI
+5. Run Angular Client UI
 
 
 
