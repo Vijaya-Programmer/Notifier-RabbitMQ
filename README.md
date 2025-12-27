@@ -8,6 +8,9 @@ We have a Angular Admin portal and Angular clients.
 
 Angular Admin sends the message via backend API and Messgaes will be received by RabbitMQ in it and based on exchanges it sends to the clients. 
 
+# Naming convention: 
+< product >. < Responsibility > . < type >
+
 # git in action: 
 1. initialize git : git init
 2. add git repo : git remote add origin https://github.com/USERNAME/REPO.git
