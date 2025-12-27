@@ -30,7 +30,6 @@ Angular Admin sends the message via backend API and Messgaes will be received by
 
     # Angular : node_modules/ dist/ .angular/
 
-
 # Stage 3: Backend API Creation
 
 1. dotnet new webapi -n RabbitMQ.Publisher.Api
@@ -49,6 +48,12 @@ Angular Admin sends the message via backend API and Messgaes will be received by
 
 1. ng new rabbitmq-admin-ui --routing --style=css
 2. ng new rabbitmq-client-ui --routing --style=css
+
+# stage 6: Add both the .net projects to solution file Notifier- RabbitMQ.sln
+
+1. dotnet sln add backend/RabbitMQ.Publisher.Api/RabbitMQ.Publisher.Api.csproj
+2. dotnet sln add worker/RabbitMQ.Consumer.Worker/RabbitMQ.Consumer.Worker.csproj
+
 
 # RabbitMQ Messaging Demo (.NET 8 + Angular)
 
